@@ -1,0 +1,8 @@
+applications:
+- name: toh
+  instances: 1
+  memory: 128M
+  disk_quota: 128M
+  random-route: true
+  buildpack: staticfile_buildpack
+  path: dist
